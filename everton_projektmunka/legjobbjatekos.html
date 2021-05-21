@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="css/legjobbJatekosStyle.css">
+    <title>Legjobb játékosok</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">Everton</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -25,10 +26,13 @@
                             <a class="nav-link" href="info.html">Információk a csapatról</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="keret.html">Keret</a>
+                            <a class="nav-link" href="keret.html">Keret</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="legjobbjatekos.html">Legjobb játékosok</a>
+                            <a class="nav-link active" href="legjobbjatekos.html">Legjobb játékosok</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="focirol_roviden.html">A fociról röviden</a>
                         </li>
                     </ul>
                 </div>
@@ -36,14 +40,55 @@
         </nav>
     </header>
 
-    <section class="container">
-        <article>
+    <main class="container">
+        <section class="row">
+            <article class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h2 class="text-center">Legjobb játékosok</h2>
+            </article>
+            <article class="col-md-6 col-xl-4 y-2 p-3">
+                <img src="imgs/james.png" alt="" class="img-fluid james">
+                <h2>James Rodriguez</h2>
+                <p>Poszt: Középpályás</p>
+                <p>Korábbi csapatok:</p>
+                <ul>
+                    <li>Monaco</li>
+                    <li>Real Madrid</li>
+                    <li>Bayern München</li>
+                </ul>
+            </article>
+            
+            <article class="col-md-6 col-xl-4 y-2 p-3">
+                <img src="imgs/pickford.png" alt="" class="img-fluid pickford">
+                <h2>Jordan Pickford</h2>
+                <p>Poszt: Kapus</p>
+                <p>Korábbi klubbok:</p>
+                <ul>
+                    <li>Carlisle United</li>
+                    <li>Bradford City</li>
+                    <li>Preston Noth End</li>
+                </ul>
+            </article>
 
-        </article>
-    </section>
+            <article class="col-md-6 col-xl-4 y-2 p-3">
+                <img src="imgs/Lucas-Digne.png" alt="" class="img-fluid digne">
+                <h2>Lucas Digne</h2>
+                <p>Poszt: Jobbszélső védő</p>
+                <p>Korábbi klubbok</p>
+                <ul>
+                    <li>PSG</li>
+                    <li>AS Rome</li>
+                    <li>FC Barcelona</li>
+                </ul>
+            </article>
+        </section>
+    </main>
 
-    <footer class="container">
-        <p>Készítette: Sándor Bence</p>
+    <footer class="container-fluid labjegyzet">
+        <div class="row">
+            <div class="col-12">
+                <p class="text-center">Készítette: Sándor Bence</p>
+            </div>
+        </div>
     </footer>
     
 </body>
