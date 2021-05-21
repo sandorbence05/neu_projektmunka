@@ -8,13 +8,13 @@ body{
 
 
 .evertonLogo{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
 .labjegyzet{
     position: relative;
     left: 5px;
-    top: 370px;
+    top: 390px;
     text-align: center;
 }
