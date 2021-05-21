@@ -1,0 +1,20 @@
+body{
+    background: linear-gradient(90deg, #7BB2E4 0.69%, rgba(59, 91, 207, 0.76) 100%, rgba(57, 80, 162, 0.6) 100%);
+}
+
+.navbar{
+    background: linear-gradient(90deg, #7BB2E4 0.69%, rgba(59, 91, 207, 0.76) 100%, rgba(57, 80, 162, 0.6) 100%);
+}
+
+
+.evertonLogo{
+    width: 400px;
+    height: 400px;
+}
+
+.labjegyzet{
+    position: relative;
+    left: 5px;
+    top: 370px;
+    text-align: center;
+}
