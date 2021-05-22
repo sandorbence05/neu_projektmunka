@@ -6,7 +6,6 @@ body{
     background: linear-gradient(90deg, #7BB2E4 0.69%, rgba(59, 91, 207, 0.76) 100%, rgba(57, 80, 162, 0.6) 100%);
 }
 
-
 .evertonLogo{
     width: 300px;
     height: 300px;
@@ -15,6 +14,7 @@ body{
 .labjegyzet{
     position: relative;
     left: 5px;
-    top: 390px;
+    top: 320px;
     text-align: center;
+    background: linear-gradient(90deg, rgba(57, 80, 162, 0.6) 0%, rgba(53, 95, 241, 0.184375) 99.99%, rgba(196, 196, 196, 0) 100%, rgba(59, 207, 189, 0.73) 100%);
 }
